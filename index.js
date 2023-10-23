@@ -9,9 +9,7 @@ for (const [key,value] of Object.entries(student)) {
 }
 //Task 2
 delete student.rollno
-for (const key of Object.entries(student)) {
-    console.log(key);
-}
+console.log(student);
 
 //Task 3
 const objSum = {
